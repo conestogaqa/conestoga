@@ -1,0 +1,7 @@
+robotframework
+robotframework-selenium2library
+robotframework-requests
+robotframework-pabot
+webdrivermanager
+robotframework-tidy
+black
