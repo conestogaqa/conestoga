@@ -85,7 +85,6 @@ Check For Errors In Programs
         Click Element    ${elem}
         ${err}    Get Element Count    ${lbl_404Error_xpath}
         IF    '${err}'=='1'    Append To List    ${pgm_list}    ${title}
-        #Check Errors In The Program Page Content
         Go To    ${programs_url}
         Wait Until Page Contains Element    ${btn_ApplyFilters_xpath}    10
         Log    ${pgm_list}
